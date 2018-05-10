@@ -1,0 +1,5 @@
+<application>
+  <component name="ExternalResourceManagerImpl">
+    <resource url="http://www.springframework.org/schema/security/spring-security-3.2.xsd" location="$USER_HOME$/.IntelliJIdea2016.2/system/extResources/8e1d3a73_spring-security-3.2.xsd" />
+  </component>
+</application>

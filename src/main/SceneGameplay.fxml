@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: grey;" xmlns="http://javafx.com/javafx/8.0.112-ea" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+         <BorderPane id="SceneGameplay" layoutX="312.0" layoutY="14.0" prefHeight="200.0" prefWidth="200.0" styleClass="ApplicationSceneStyle" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+            <top>
+               <BorderPane>
+                  <left>
+                     <Label fx:id="playerOneLabel" alignment="CENTER" prefWidth="350.00" text="PLAYER" textAlignment="CENTER" textFill="#2f2f2f">
+                        <font>
+                           <Font name="System Bold" size="36.0" />
+                        </font>
+                        <BorderPane.margin>
+                           <Insets top="10" />
+                        </BorderPane.margin>
+                     </Label>
+                  </left>
+                  <right>
+                     <Label fx:id="playerTwoLabel" alignment="CENTER" contentDisplay="CENTER" prefWidth="350.00" text="ENEMY" textAlignment="CENTER" textFill="#2f2f2f">
+                        <font>
+                           <Font name="System Bold" size="36.0" />
+                        </font>
+                        <BorderPane.margin>
+                           <Insets top="10" />
+                        </BorderPane.margin>
+                     </Label>
+                  </right>
+               </BorderPane>
+   
+            </top>
+            <left>
+               <fx:include fx:id="primaryGrid" source="Grid.fxml" />
+            </left>
+            <right>
+               <fx:include fx:id="secondaryGrid" source="Grid.fxml" />
+            </right>
+   
+            <bottom>
+               <BorderPane>
+                  <right>
+                     <HBox>
+                        <children>
+                        <GridPane prefHeight="181.0" prefWidth="782.0">
+                          <columnConstraints>
+                            <ColumnConstraints hgrow="SOMETIMES" maxWidth="204.0" minWidth="10.0" prefWidth="83.0" />
+                              <ColumnConstraints hgrow="SOMETIMES" maxWidth="375.0" minWidth="10.0" prefWidth="196.0" />
+                            <ColumnConstraints hgrow="SOMETIMES" maxWidth="691.0" minWidth="10.0" prefWidth="482.0" />
+                              <ColumnConstraints hgrow="SOMETIMES" maxWidth="423.0" minWidth="10.0" prefWidth="43.0" />
+                          </columnConstraints>
+                          <rowConstraints>
+                            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                              <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                              <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                          </rowConstraints>
+                           <children>
+                                 <Button fx:id="submitHit" onAction="#submitHit" prefHeight="26.0" prefWidth="103.0" text="Fire" textFill="RED" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                                 <Button alignment="CENTER_RIGHT" maxWidth="-Infinity" minWidth="-Infinity" onAction="#demoHit" prefWidth="80.0" text="Demo Hit" textFill="RED" GridPane.columnIndex="2" GridPane.halignment="RIGHT" />
+                                 <Button maxWidth="-Infinity" minWidth="-Infinity" onAction="#demoMiss" prefWidth="80.0" text="Demo Miss" textFill="RED" GridPane.columnIndex="2" GridPane.halignment="RIGHT" GridPane.rowIndex="1" />
+                                 <Button maxWidth="-Infinity" minWidth="-Infinity" onAction="#demoWin" prefWidth="80.0" text="Demo Win" textFill="RED" GridPane.columnIndex="2" GridPane.halignment="RIGHT" GridPane.rowIndex="2" />
+                                 <Button maxWidth="-Infinity" minWidth="-Infinity" onAction="#demoLoss" prefWidth="80.0" text="Demo Loss" textFill="RED" GridPane.columnIndex="2" GridPane.halignment="RIGHT" GridPane.rowIndex="3" />
+                                 <Label alignment="CENTER_RIGHT" contentDisplay="RIGHT" text="Coordinate:" textFill="#323232">
+                                    <font>
+                                       <Font name="System Bold" size="12.0" />
+                                    </font>
+                              </Label>
+                                 <TextField fx:id="hitSelection" alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="30.0" prefWidth="50.0" promptText="E5" GridPane.columnIndex="1" />
+                           </children>
+                        </GridPane>
+                        </children>
+                     </HBox>
+                  </right>
+               </BorderPane>
+            </bottom>
+   
+         </BorderPane>
+   </children>
+</AnchorPane>

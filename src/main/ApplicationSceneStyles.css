@@ -1,0 +1,35 @@
+#SceneGame{
+    -fx-background-image: url("/images/SceneMainMenu.png");
+    -fx-background-position: center center;
+}
+
+#SceneCredits{
+    -fx-background-image: url("/images/SceneCredits.jpg");
+    -fx-background-position: center center;
+}
+
+#SceneUsername{
+    -fx-background-image: url("/images/SceneUsername.png");
+    -fx-background-position: center center;
+}
+
+#SceneShipSelection{
+    -fx-background-image: url("/images/SceneShipSelection.png");
+    -fx-background-position: center center;
+}
+
+#SceneGameplay{
+     -fx-background-image: url("/images/SceneGameplay.png");
+     -fx-background-position: center center;
+}
+
+#SceneAbout{
+    -fx-background-image: url("/images/SceneAbout.png");
+    -fx-background-position: center center;
+}
+
+#Grid{
+    -fx-padding: 15px;
+    -fx-border-insets: 15px;
+    -fx-background-insets: 15px;
+}

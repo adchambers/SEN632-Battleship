@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="SceneAbout" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" styleClass="ApplicationSceneStyles.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.Main">
+   <children>
+      <GridPane layoutX="159.0" layoutY="73.0" AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="210.0">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        </columnConstraints>
+        <rowConstraints>
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="National University, SEN632 - Software Architecture Application">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Text>
+            <Label text="This project was created for academic purposes and is not intended for commercial use." textFill="WHITE" GridPane.rowIndex="1" />
+            <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="Battleship 2017.1.30" GridPane.rowIndex="3">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Text>
+            <Label text="Build #0001, built on 30 January 2016" textFill="WHITE" GridPane.rowIndex="4" />
+            <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="Class Diagram" GridPane.rowIndex="6">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Text>
+            <Label text="https://drive.google.com/file/d/0Bz3YWPBl6pVxX2hsSnE3OVFTcE0/view?usp=sharing" textFill="WHITE" GridPane.rowIndex="7" />
+            <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="Sequence Diagram" GridPane.rowIndex="9">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Text>
+            <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="Activity Diagram" GridPane.rowIndex="12">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Text>
+            <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="Github Repository" GridPane.rowIndex="15">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Text>
+            <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="Trello Board" GridPane.rowIndex="18">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Text>
+            <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="Google Slides Presentation" GridPane.rowIndex="21">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Text>
+            <Label text="https://drive.google.com/file/d/0Bz3YWPBl6pVxUE1JSzJUVG9DOVk/view?usp=sharing" textFill="WHITE" GridPane.rowIndex="10" />
+            <Label text="https://drive.google.com/file/d/0B_6HQeW67nfjZGhTSWZnc2wzcjA/view?usp=sharing" textFill="WHITE" GridPane.rowIndex="13" />
+            <Label text="https://github.com/schulzzw/SEN632-Battleship.git" textFill="WHITE" GridPane.rowIndex="16" />
+            <Label text="https://trello.com/b/BBewOwlf/battleship" textFill="WHITE" GridPane.rowIndex="19" />
+            <Label text="https://docs.google.com/presentation/d/1tacA-bpZScacMih14JseyXUv6EPTHxhtYih-SMh-mPo/edit?usp=sharing" textFill="WHITE" GridPane.rowIndex="22" />
+         </children>
+      </GridPane>
+   </children>
+</AnchorPane>
